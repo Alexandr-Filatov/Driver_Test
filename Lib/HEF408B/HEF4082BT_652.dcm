@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HEF4082BT,652
+D HEF4082B - Dual 4-input AND gate@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/HEF4082B.pdf
+$ENDCMP
+#
+#End Doc Library
