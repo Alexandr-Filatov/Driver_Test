@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/power_my.kicad_sym")(options "")(descr ""))
   (lib (name "HEF4082BT_652")(type "KiCad")(uri "${KIPRJMOD}/Lib/HEF408B/HEF4082BT_652.kicad_sym")(options "")(descr ""))
+  (lib (name "Mornsun")(type "KiCad")(uri "${KIPRJMOD}/Lib/Mornsun.kicad_sym")(options "")(descr ""))
 )

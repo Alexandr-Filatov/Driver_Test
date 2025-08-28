@@ -3,4 +3,5 @@
   (lib (name "Shunt_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Shunt_My.pretty")(options "")(descr ""))
   (lib (name "Connector_Power_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Connector_Power_My.pretty")(options "")(descr ""))
   (lib (name "Diode_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Diode_My.pretty")(options "")(descr ""))
+  (lib (name "Mornsun")(type "KiCad")(uri "${KIPRJMOD}/Lib/Mornsun.pretty")(options "")(descr ""))
 )
