@@ -3555,128 +3555,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+15V"
 			(power)
 			(pin_names
@@ -5304,12 +5182,6 @@
 		(uuid "5248eac7-4ba9-42f6-bccd-a1cda54dd7ad")
 	)
 	(junction
-		(at 368.935 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54245b47-822a-47f5-a6df-7afa1a728fee")
-	)
-	(junction
 		(at 334.01 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5320,12 +5192,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568a836c-d8a0-40aa-99c2-00f8b5168651")
-	)
-	(junction
-		(at 368.935 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "571efa30-032d-43a8-b127-2f794b5bcdee")
 	)
 	(junction
 		(at 146.812 181.864)
@@ -5416,12 +5282,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7191ad60-f3f6-48e1-b33f-7ccc13720364")
-	)
-	(junction
-		(at 368.935 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71b07fd6-0a70-49ec-b878-4e2e947d5f5b")
 	)
 	(junction
 		(at 167.64 99.06)
@@ -5538,18 +5398,6 @@
 		(uuid "a5c4164b-1058-4136-8112-30a0a763ad26")
 	)
 	(junction
-		(at 368.935 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5e153ee-6a8f-4516-8ba4-37894e2b21cb")
-	)
-	(junction
-		(at 368.935 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad69b296-09ab-425e-bd42-bd64b0d040ef")
-	)
-	(junction
 		(at 218.44 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5572,12 +5420,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b35e4207-6ce2-4e5a-80a7-30934fee0c12")
-	)
-	(junction
-		(at 368.935 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b56e9c52-071b-4c6c-a266-ed284da380b7")
 	)
 	(junction
 		(at 327.66 36.83)
@@ -5779,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 158.75) (xy 67.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f3e2a6-c57e-4139-9170-52a6bfa22e0d")
+	)
+	(wire
+		(pts
 			(xy 49.53 66.04) (xy 49.53 67.31)
 		)
 		(stroke
@@ -5969,16 +5821,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 188.595) (xy 67.31 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150d586b-bf83-4322-9bde-e061f3a95950")
-	)
-	(wire
-		(pts
 			(xy 167.64 99.06) (xy 167.64 101.6)
 		)
 		(stroke
@@ -6026,16 +5868,6 @@
 			(type default)
 		)
 		(uuid "1cc73b48-5272-454f-9c9d-7367c3284dc8")
-	)
-	(wire
-		(pts
-			(xy 368.935 34.29) (xy 368.935 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204ad90f-808e-4cdd-81e2-675bd0ec7213")
 	)
 	(wire
 		(pts
@@ -6106,16 +5938,6 @@
 			(type default)
 		)
 		(uuid "25e21ed8-10fc-40dd-8b9c-427fd9fdf5cf")
-	)
-	(wire
-		(pts
-			(xy 368.935 27.94) (xy 378.46 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2829544e-af6d-46d1-87fc-95da11952c49")
 	)
 	(wire
 		(pts
@@ -6269,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 27.94) (xy 368.935 27.94)
+			(xy 365.125 27.94) (xy 378.46 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6369,7 +6191,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 60.96) (xy 368.935 60.96)
+			(xy 365.125 60.96) (xy 378.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6439,16 +6261,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.935 34.29) (xy 368.935 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4108c5d7-a67d-4adb-b990-0198a6328e5e")
-	)
-	(wire
-		(pts
 			(xy 52.07 138.43) (xy 52.07 143.51)
 		)
 		(stroke
@@ -6469,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 40.64) (xy 368.935 40.64)
+			(xy 365.125 40.64) (xy 378.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6699,6 +6511,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 189.23) (xy 67.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f5b4f6-6cf1-4683-8f1d-90c97f806ffa")
+	)
+	(wire
+		(pts
 			(xy 154.94 44.45) (xy 154.94 50.8)
 		)
 		(stroke
@@ -6716,16 +6538,6 @@
 			(type default)
 		)
 		(uuid "5b2bce9f-cae1-4af5-9201-14075df3c948")
-	)
-	(wire
-		(pts
-			(xy 368.935 73.66) (xy 378.46 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbb2efa-91f8-4620-9835-2f26519f120f")
 	)
 	(wire
 		(pts
@@ -7199,16 +7011,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.935 67.31) (xy 368.935 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87be38f8-d227-466d-b2a0-d4d58504ac3d")
-	)
-	(wire
-		(pts
 			(xy 67.31 40.64) (xy 67.31 45.72)
 		)
 		(stroke
@@ -7246,16 +7048,6 @@
 			(type default)
 		)
 		(uuid "8a6f92d9-b865-4730-9841-3b8a0d224449")
-	)
-	(wire
-		(pts
-			(xy 368.935 67.31) (xy 378.46 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3ab685-72d6-470d-8ba9-9edf34967250")
 	)
 	(wire
 		(pts
@@ -7489,16 +7281,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.935 40.64) (xy 378.46 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa4dbe8c-f172-4f80-89fe-3b0336427618")
-	)
-	(wire
-		(pts
 			(xy 346.075 102.87) (xy 349.885 102.87)
 		)
 		(stroke
@@ -7509,23 +7291,13 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 67.31) (xy 368.935 67.31)
+			(xy 364.49 67.31) (xy 378.46 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad2e087f-ea34-460a-9832-ebacd3eed8b3")
-	)
-	(wire
-		(pts
-			(xy 67.31 127.635) (xy 67.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1b7be6-ecc2-41fe-8163-94d99d6887ae")
 	)
 	(wire
 		(pts
@@ -7619,16 +7391,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.935 60.96) (xy 378.46 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b856a03b-08c7-4e5f-8f77-6216976812de")
-	)
-	(wire
-		(pts
 			(xy 167.64 27.94) (xy 175.26 27.94)
 		)
 		(stroke
@@ -7719,23 +7481,23 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 34.29) (xy 368.935 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfa3ed7-72db-48dc-8a33-5f4c1125fdaf")
-	)
-	(wire
-		(pts
-			(xy 368.935 34.29) (xy 378.46 34.29)
+			(xy 364.49 34.29) (xy 378.46 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c07e3b93-58ea-47b8-8288-55483b845e67")
+	)
+	(wire
+		(pts
+			(xy 67.31 128.27) (xy 67.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37ad0c8-13be-4277-95fa-f5160906cee0")
 	)
 	(wire
 		(pts
@@ -7806,16 +7568,6 @@
 			(type default)
 		)
 		(uuid "c8453c23-3c61-4fb1-afa6-c036d857e0c9")
-	)
-	(wire
-		(pts
-			(xy 368.935 67.31) (xy 368.935 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8decbe3-db5d-491f-a20b-abefb7d5651b")
 	)
 	(wire
 		(pts
@@ -8089,16 +7841,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 158.115) (xy 67.31 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5322192-b0c1-4c1f-a6da-45b01844c4a4")
-	)
-	(wire
-		(pts
 			(xy 333.375 31.75) (xy 334.01 31.75)
 		)
 		(stroke
@@ -8219,7 +7961,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 73.66) (xy 368.935 73.66)
+			(xy 365.125 73.66) (xy 378.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8376,28 +8118,6 @@
 			(type default)
 		)
 		(uuid "ff19b1f3-fb79-47cb-815e-8aa759870949")
-	)
-	(global_label "OUT"
-		(shape input)
-		(at 352.425 169.545 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02e8ea32-75de-4317-9e02-ab39582cdca7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.24 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "RDY"
 		(shape input)
@@ -8883,6 +8603,28 @@
 			)
 		)
 	)
+	(global_label "OUT"
+		(shape output)
+		(at 353.06 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64a2304d-ed20-4101-8083-212c288c0243")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.6738 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Fault_P"
 		(shape output)
 		(at 152.146 186.944 0)
@@ -8905,9 +8647,9 @@
 			)
 		)
 	)
-	(global_label "Drain_Low"
-		(shape input)
-		(at 67.31 127.635 0)
+	(global_label "OUT"
+		(shape output)
+		(at 67.31 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8917,7 +8659,7 @@
 		)
 		(uuid "6b7f123b-d4de-4056-ab10-66ac05f555c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0806 127.635 0)
+			(at 73.9238 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,9 +9285,9 @@
 			)
 		)
 	)
-	(global_label "Drain_Low"
-		(shape input)
-		(at 67.31 188.595 0)
+	(global_label "OUT"
+		(shape output)
+		(at 67.31 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9555,7 +9297,7 @@
 		)
 		(uuid "d065256f-3e77-4f61-a547-3de3b9f0349d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0806 188.595 0)
+			(at 73.9238 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,9 +9329,9 @@
 			)
 		)
 	)
-	(global_label "Drain_Low"
-		(shape input)
-		(at 67.31 158.115 0)
+	(global_label "OUT"
+		(shape output)
+		(at 67.31 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9599,7 +9341,7 @@
 		)
 		(uuid "eb411031-9d96-44b3-84cb-72d4c25f1e5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0806 158.115 0)
+			(at 73.9238 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,6 +9865,71 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:GND2H")
+		(at 67.31 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "040c3f50-eb38-4754-8a9f-bf7ddd88edbc")
+		(property "Reference" "#PWR048"
+			(at 65.786 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2H"
+			(at 58.166 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4c629d5-a8f4-48fe-bcc6-acca72157c0b")
+		)
+		(instances
+			(project "Тестовые драйвера"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11041,70 +10848,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 367.03 201.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1963a253-e7c4-43d5-8c8e-dd411d14622b")
-		(property "Reference" "J4"
-			(at 363.855 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 367.03 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_My:Power_Wire"
-			(at 367.03 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a582a2c-f1cf-459d-86b3-d0690b520a32")
-		)
-		(instances
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12851,85 +12594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 368.935 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f1f7987-a73c-407c-bfe9-9c746b9a43de")
-		(property "Reference" "C1"
-			(at 372.11 29.2163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 372.11 31.7563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 368.935 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.935 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.935 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28951764-30a1-4d4e-bfb7-45acbba66e77")
-		)
-		(pin "2"
-			(uuid "813e7ceb-9e68-4c25-b195-9326f37f8477")
-		)
-		(instances
-			(project "Driver GD50FFY120C5S"
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/0cec2f2a-b778-474a-89d0-fb18976cd9fe"
-					(reference "C57")
-					(unit 1)
-				)
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/e5b7dbf0-2a36-48e5-9d83-24403cc6cee6"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_my:GND2H")
 		(at 52.07 107.95 0)
 		(unit 1)
@@ -13084,7 +12748,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 352.425 163.195 90)
+		(at 353.06 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13093,7 +12757,7 @@
 		(fields_autoplaced yes)
 		(uuid "33e09be4-33a0-4ffa-aa31-54633587c884")
 		(property "Reference" "#PWR062"
-			(at 357.505 163.195 0)
+			(at 358.14 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13102,7 +12766,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 356.235 163.322 90)
+			(at 356.87 163.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +12775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.695 163.195 0)
+			(at 354.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +12784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.695 163.195 0)
+			(at 354.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +12793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 352.425 163.195 0)
+			(at 353.06 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,6 +12813,71 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:GND2H")
+		(at 67.31 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "34e8aa7f-c1ff-427f-85fe-48585c1df938")
+		(property "Reference" "#PWR056"
+			(at 65.786 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2H"
+			(at 58.166 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84ce8474-861c-46f3-aa65-dd04503270c5")
+		)
+		(instances
+			(project "Тестовые драйвера"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13764,6 +13493,71 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:GND2H")
+		(at 67.31 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "3d781f8b-5be6-43c0-8d7f-23731398638d")
+		(property "Reference" "#PWR055"
+			(at 65.786 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2H"
+			(at 58.166 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b86943c6-da2c-4875-947c-ae2038a1669a")
+		)
+		(instances
+			(project "Тестовые драйвера"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -14457,85 +14251,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 368.935 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a8561b7-38bb-423a-a759-69d3491d7f92")
-		(property "Reference" "C6"
-			(at 372.11 36.8363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 372.11 39.3763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 368.935 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.935 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.935 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2341cdd-6c7f-4faa-9e9a-54cd2c4f8622")
-		)
-		(pin "2"
-			(uuid "0359324e-ff3b-4fb0-b2fd-f2f3b1bd5497")
-		)
-		(instances
-			(project "Driver GD50FFY120C5S"
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/0cec2f2a-b778-474a-89d0-fb18976cd9fe"
-					(reference "C58")
-					(unit 1)
-				)
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/e5b7dbf0-2a36-48e5-9d83-24403cc6cee6"
-					(reference "C92")
-					(unit 1)
-				)
-			)
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15447,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 347.345 163.195 180)
+		(at 347.98 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15740,7 +15455,7 @@
 		(dnp no)
 		(uuid "60491473-3126-41a0-b56f-ca34cd6b1243")
 		(property "Reference" "J1"
-			(at 344.17 163.195 0)
+			(at 344.805 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +15463,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 347.345 159.385 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15756,8 +15471,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Power_My:Cuprum_M4"
-			(at 347.345 163.195 0)
+		(property "Footprint" "Bush_my:Bush_SMD_M3"
+			(at 347.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.345 163.195 0)
+			(at 347.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.345 163.195 0)
+			(at 347.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +15670,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 347.345 169.545 180)
+		(at 347.98 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15963,7 +15678,7 @@
 		(dnp no)
 		(uuid "61c260bc-f28c-4a61-80d5-fc08f8c7a603")
 		(property "Reference" "J2"
-			(at 344.17 169.545 0)
+			(at 344.805 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15971,7 +15686,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 347.345 165.735 0)
+			(at 347.98 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15979,8 +15694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Power_My:Cuprum_M4"
-			(at 347.345 169.545 0)
+		(property "Footprint" "Bush_my:Bush_SMD_M3"
+			(at 347.98 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15989,7 +15704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.345 169.545 0)
+			(at 347.98 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,7 +15713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.345 169.545 0)
+			(at 347.98 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16642,85 +16357,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 368.935 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d5bd96c-304c-4cb8-bd8a-6bb429e37788")
-		(property "Reference" "C20"
-			(at 372.11 69.8563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 372.11 72.3963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 368.935 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.935 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.935 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9678eb8-8956-4729-a625-156a2b66b887")
-		)
-		(pin "2"
-			(uuid "41e2c947-f0b3-4522-bb96-c3597d78c6c3")
-		)
-		(instances
-			(project "Driver GD50FFY120C5S"
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/0cec2f2a-b778-474a-89d0-fb18976cd9fe"
-					(reference "C64")
-					(unit 1)
-				)
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/e5b7dbf0-2a36-48e5-9d83-24403cc6cee6"
-					(reference "C94")
-					(unit 1)
-				)
-			)
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -21215,7 +20851,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 352.425 175.895 270)
+		(at 353.06 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21224,7 +20860,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb984e8f-9021-4bb8-9174-fa9339405614")
 		(property "Reference" "#PWR067"
-			(at 349.885 175.895 0)
+			(at 350.52 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21233,7 +20869,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 356.235 175.895 90)
+			(at 356.87 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21242,7 +20878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 352.425 175.895 0)
+			(at 353.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21251,7 +20887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 352.425 175.895 0)
+			(at 353.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21260,7 +20896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 352.425 175.895 0)
+			(at 353.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21929,85 +21565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 368.935 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb459230-285b-4d99-8208-3fa16d391207")
-		(property "Reference" "C15"
-			(at 372.11 62.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 372.11 64.7763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 368.935 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.935 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.935 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22bf5ba0-dd08-4e2b-8194-bb3a3baa2f34")
-		)
-		(pin "2"
-			(uuid "723b5850-40e9-4270-bee3-d0a3cdb16af7")
-		)
-		(instances
-			(project "Driver GD50FFY120C5S"
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/0cec2f2a-b778-474a-89d0-fb18976cd9fe"
-					(reference "C63")
-					(unit 1)
-				)
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/e5b7dbf0-2a36-48e5-9d83-24403cc6cee6"
-					(reference "C93")
-					(unit 1)
-				)
-			)
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_My:ADM3485E")
 		(at 134.874 175.26 0)
 		(unit 1)
@@ -22437,72 +21994,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 372.11 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c81379-fe06-490f-bef2-2d9313aafd59")
-		(property "Reference" "#PWR081"
-			(at 378.46 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 375.285 202.5649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ffb7568-c871-4c85-8009-3ccdb6f55ec9")
-		)
-		(instances
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -23488,70 +22979,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 367.03 207.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0fb3ed5-d872-4f0d-b806-0695e0995589")
-		(property "Reference" "J5"
-			(at 363.855 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 367.03 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_My:Power_Wire"
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cc38b72-8e6a-4550-a2bd-b62f2a4b06cb")
-		)
-		(instances
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -24765,82 +24192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 372.11 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6271d5c-b167-4d5a-a0db-21da44dd22bf")
-		(property "Reference" "#PWR082"
-			(at 368.3 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 375.92 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "626c98f0-5cfc-42cf-b871-083bf06ce62f")
-		)
-		(instances
-			(project "Driver GD50FFY120C5S"
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/0cec2f2a-b778-474a-89d0-fb18976cd9fe"
-					(reference "#PWR074")
-					(unit 1)
-				)
-				(path "/84e35b8b-bde4-4bc1-9cd1-ac95932f3d9b/e5b7dbf0-2a36-48e5-9d83-24403cc6cee6"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 98.806 190.5 0)
 		(unit 1)
@@ -24908,7 +24259,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 347.345 175.895 180)
+		(at 347.98 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24916,7 +24267,7 @@
 		(dnp no)
 		(uuid "f84fe045-b1e0-4528-ab85-249ebdecfcb3")
 		(property "Reference" "J3"
-			(at 344.17 175.895 0)
+			(at 344.805 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24924,7 +24275,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 347.345 172.085 0)
+			(at 347.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24932,8 +24283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Power_My:Cuprum_M4"
-			(at 347.345 175.895 0)
+		(property "Footprint" "Bush_my:Bush_SMD_M3"
+			(at 347.98 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24942,7 +24293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.345 175.895 0)
+			(at 347.98 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24951,7 +24302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.345 175.895 0)
+			(at 347.98 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,4 +4,5 @@
   (lib (name "Connector_Power_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Connector_Power_My.pretty")(options "")(descr ""))
   (lib (name "Diode_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Diode_My.pretty")(options "")(descr ""))
   (lib (name "Mornsun")(type "KiCad")(uri "${KIPRJMOD}/Lib/Mornsun.pretty")(options "")(descr ""))
+  (lib (name "Bush_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/Bush_my.pretty")(options "")(descr ""))
 )
