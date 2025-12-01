@@ -77,4 +77,15 @@
 		(uuid "8efa691c-55a6-4f2e-a315-9a4ffc85c141")
 	)
 	(embedded_fonts no)
+	(model "D:/Download/brush_2__asm.stp"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
