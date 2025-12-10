@@ -518,7 +518,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3D/Driver_Test.step",
+      "step": "../Power_Test/3D/Driver_Test.step",
       "svg": "",
       "vrml": ""
     },
