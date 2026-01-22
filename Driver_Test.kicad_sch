@@ -2367,104 +2367,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_names
@@ -3004,12 +2906,6 @@
 		(uuid "b2613e7f-1e16-468e-868e-b54310c2906a")
 	)
 	(junction
-		(at 149.86 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcaccffd-7c67-4df4-811e-f91d1a77d7f8")
-	)
-	(junction
 		(at 327.66 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3021,19 +2917,13 @@
 		(color 0 0 0 0)
 		(uuid "c81730fb-463f-45a7-9cd1-8a7a658fe916")
 	)
-	(junction
-		(at 135.89 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea338aed-7a24-4c2a-af4f-2ddcef392b56")
-	)
-	(no_connect
-		(at 358.14 193.04)
-		(uuid "0db3f869-eb78-49fa-841b-a5ca85b14517")
-	)
 	(no_connect
 		(at 345.44 193.04)
 		(uuid "64f4cc20-d003-4204-8fbc-fee4a2588d09")
+	)
+	(no_connect
+		(at 345.44 195.58)
+		(uuid "796836e1-0e69-4646-a9b5-b6367b3c5db2")
 	)
 	(wire
 		(pts
@@ -3217,6 +3107,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c6df71-3ae2-448a-bc52-f0919d764d6d")
+	)
+	(wire
+		(pts
 			(xy 203.2 115.57) (xy 213.36 115.57)
 		)
 		(stroke
@@ -3224,26 +3124,6 @@
 			(type default)
 		)
 		(uuid "497a168d-a7d3-4a99-85ff-c1bf8a969f12")
-	)
-	(wire
-		(pts
-			(xy 149.86 115.57) (xy 153.67 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf3473d-9afc-40e8-8a0c-347e7f2ad5d3")
-	)
-	(wire
-		(pts
-			(xy 135.89 115.57) (xy 138.43 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50005f75-3f0f-421b-885a-5d7e3eb0901d")
 	)
 	(wire
 		(pts
@@ -3274,16 +3154,6 @@
 			(type default)
 		)
 		(uuid "599f162d-e297-4a4b-9eec-dd86c0a2bd5d")
-	)
-	(wire
-		(pts
-			(xy 143.51 115.57) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4cb6be-99db-4035-9c80-e6efbcc10e8a")
 	)
 	(wire
 		(pts
@@ -3377,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 135.89 115.57)
+			(xy 147.32 115.57) (xy 153.67 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3397,16 +3267,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 153.67 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e679d0e-e912-4c21-a88a-00961dd8b8fc")
-	)
-	(wire
-		(pts
 			(xy 205.74 113.03) (xy 205.74 105.41)
 		)
 		(stroke
@@ -3414,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "9255a54b-31c3-4de3-a51d-467dfb75f698")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9758b47f-28d3-4acd-9e1d-59ade103a997")
 	)
 	(wire
 		(pts
@@ -3487,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 135.89 115.57)
+			(xy 153.67 114.3) (xy 153.67 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3524,16 +3394,6 @@
 			(type default)
 		)
 		(uuid "d705675e-7897-449e-ac6c-de78beb15ac1")
-	)
-	(wire
-		(pts
-			(xy 149.86 115.57) (xy 149.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ecebd8-f3af-451b-91d3-251e8127cb9d")
 	)
 	(wire
 		(pts
@@ -3955,22 +3815,22 @@
 	)
 	(global_label "OUT"
 		(shape output)
-		(at 345.44 195.58 180)
+		(at 358.14 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "82517997-31b3-4b30-80b5-0934043f0562")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.8262 195.58 0)
+			(at 363.2441 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4249,72 +4109,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 323.85 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02fdb80c-4aaf-4aa8-aebd-44834558c24d")
-		(property "Reference" "#PWR021"
-			(at 317.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 320.04 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 323.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "170be933-2097-4f87-b46a-ced57b53b2ed")
-		)
-		(instances
-			(project "Тестовые драйвера"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4628,6 +4422,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 381 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "152d5ffe-0644-47f3-b232-19e836e75046")
+		(property "Reference" "D3"
+			(at 382.778 219.8116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 382.778 222.123 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FYLS-0805UBC"
+			(at 381 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Blue LED"
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "FYLS-0805UBC "
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "RDY"
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9596c9d3-d077-4847-9fa7-c6e5b0973dfc")
+		)
+		(pin "2"
+			(uuid "134f34b6-782a-4e8b-b6ab-a655658e006a")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 350.52 218.44 0)
 		(unit 1)
@@ -4798,6 +4698,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18655b1f-7ee0-4548-b940-3a300d102afe")
+		(property "Reference" "#PWR014"
+			(at 373.38 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83a8fe8b-5857-4cb3-9de3-cc08874b8f24")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 167.64 135.89 0)
 		(unit 1)
@@ -4948,6 +4913,72 @@
 			(project "Driver_Test"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 213.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250c0579-768c-481c-8e3c-1e1e5d99265b")
+		(property "Reference" "#PWR07"
+			(at 339.09 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 341.63 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b4efa0d-ceb3-473d-8c01-1513032102cb")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5119,6 +5150,109 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 373.38 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30df8be1-c61a-45be-83d5-b15d2027753f")
+		(property "Reference" "R3"
+			(at 376.301 227.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 376.301 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 373.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdd1f0b2-41f0-482d-8cfa-55f8e41077bf")
+		)
+		(pin "2"
+			(uuid "f646105e-c11f-4352-af80-fdc75f7a02d2")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5435,6 +5569,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 373.38 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "421be963-4138-4afd-a4b8-1add6154e26f")
+		(property "Reference" "#PWR012"
+			(at 373.38 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8c29839-eb81-4ff1-81df-e267c0150752")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_my:+15VL")
 		(at 182.88 123.19 90)
 		(unit 1)
@@ -5583,72 +5781,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 140.97 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53f844b2-394a-493a-b170-6a25295e2e33")
-		(property "Reference" "R6"
-			(at 140.97 113.792 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 140.97 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "534eb0d0-d398-4674-9703-88f80b17e2b8")
-		)
-		(pin "2"
-			(uuid "e232c1e9-15e7-4dd5-a243-47d0fda1169c")
-		)
-		(instances
-			(project "Driver_Test"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5961,6 +6093,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 133.35 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fe506e8-4b66-499b-8faa-21e5a7cc347f")
+		(property "Reference" "D1"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 131.318 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MMSZ5240B"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Zener Diode"
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MMSZ5240B"
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d90bd30-68e1-4cb1-918f-a0d06ae649fc")
+		)
+		(pin "2"
+			(uuid "d1a40de4-c6cc-42b7-b116-c7ebeac38632")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_My:NSI6651")
 		(at 193.04 110.49 0)
 		(unit 1)
@@ -6092,6 +6330,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+15V_1")
+		(lib_id "power:+15V")
+		(at 381 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72d7bf2e-aeed-4a22-9747-2728d002f1ad")
+		(property "Reference" "#PWR015"
+			(at 381 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 381 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 381 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68693d35-cc36-4d2e-a9d4-99f44b4f24b4")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 153.67 132.08 0)
 		(unit 1)
@@ -6164,7 +6468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.81 115.57 90)
+		(at 144.78 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6172,7 +6476,7 @@
 		(dnp no)
 		(uuid "763a1935-eda0-4344-95cb-acbacf884d65")
 		(property "Reference" "R2"
-			(at 130.81 113.03 90)
+			(at 144.78 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6484,7 @@
 			)
 		)
 		(property "Value" "Rdesat"
-			(at 130.81 117.475 90)
+			(at 144.78 117.475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6492,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 130.81 115.57 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 115.57 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 115.57 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,72 +6615,6 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 149.86 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "801803c6-dd5c-4c6c-a2ac-953f43cedd9b")
-		(property "Reference" "R5"
-			(at 148.082 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "698"
-			(at 147.574 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6666acc8-8e9d-4d8f-9a94-221a20061268")
-		)
-		(pin "2"
-			(uuid "b29c600e-6584-449b-afff-35d5d33b3e85")
-		)
-		(instances
-			(project "Driver_Test"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6864,7 +7102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 135.89 111.76 180)
+		(at 153.67 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6872,7 +7110,7 @@
 		(dnp no)
 		(uuid "9224340a-7b8c-46b7-9446-41a91176cc68")
 		(property "Reference" "R1"
-			(at 134.112 110.744 0)
+			(at 151.892 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +7118,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 133.858 112.776 0)
+			(at 151.638 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +7126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.89 111.76 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +7135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 111.76 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +7144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 111.76 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,6 +7666,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 323.85 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e880a7-24e5-43f9-91e7-f2540bb3fa52")
+		(property "Reference" "#PWR011"
+			(at 317.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f17a4bd-5080-4a1d-b70d-13c45c88e055")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 134.62 200.66 0)
 		(unit 1)
@@ -7558,72 +7862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 345.44 213.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b525d230-316c-447c-9eaf-965863a1709b")
-		(property "Reference" "#PWR07"
-			(at 339.09 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 341.63 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 345.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b5e5384-074c-49f0-b9c9-7b59c3344d61")
-		)
-		(instances
-			(project "Driver_Test"
-				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 345.44 215.9 270)
 		(unit 1)
@@ -7684,6 +7922,70 @@
 			(project "Driver_Test"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b96b61f7-8e96-41c4-8581-ed143116abfa")
+		(property "Reference" "#PWR013"
+			(at 381 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e518a211-4ca2-4ba0-8a60-854ee3f7533f")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8048,6 +8350,112 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 373.38 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3cc228-9ef3-47b8-a65e-6a7d34624c16")
+		(property "Reference" "D2"
+			(at 375.158 219.8116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 375.158 222.123 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KP-2012SURCK"
+			(at 373.38 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Red LED"
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "FYLS-0805URC "
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "FLT"
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 373.38 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21bd573c-bcfc-4fc3-8432-f71c8bbaf3a6")
+		)
+		(pin "2"
+			(uuid "6a76ac52-d717-49d7-aa59-655721e87adb")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8445,7 +8853,7 @@
 	)
 	(symbol
 		(lib_id "power_my:+15VL")
-		(at 135.89 109.22 0)
+		(at 153.67 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8453,7 +8861,7 @@
 		(dnp no)
 		(uuid "dbd6fbe4-6c3e-46c3-85b0-f3102b31929e")
 		(property "Reference" "#PWR8"
-			(at 137.414 109.474 0)
+			(at 155.194 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +8870,7 @@
 			)
 		)
 		(property "Value" "+15VL"
-			(at 134.366 105.41 0)
+			(at 152.146 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 109.22 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 109.22 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 109.22 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,6 +9587,109 @@
 			(project "Тестовые драйвера"
 				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 381 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe0d624d-60e9-4f09-a472-b955b4db6322")
+		(property "Reference" "R4"
+			(at 383.921 227.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 383.921 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 381 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9582db7a-4bd9-433b-9b8a-891876571ec3")
+		)
+		(pin "2"
+			(uuid "6f4bfad1-677c-4af6-9b4d-d485fd17d760")
+		)
+		(instances
+			(project "Driver_Test"
+				(path "/d1e1d0ee-338f-4b8c-beae-d34a6382fd09"
+					(reference "R4")
 					(unit 1)
 				)
 			)
